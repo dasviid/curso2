@@ -32,11 +32,11 @@ public class EjemploArreglosParesImpares {
             impar[posicionImpar++] = a[i];
         }
         for (int i = 0; i < par.length; i++) {
-            System.out.print("par ("+i+") = " + par[i]+"  ");
+            System.out.print("par (" + i + ") = " + par[i] + "  ");
         }
         System.out.println();
         for (int i = 0; i < impar.length; i++) {
-            System.out.print("impar ("+i+") = " + impar[i]+"  ");
+            System.out.print("impar (" + i + ") = " + impar[i] + "  ");
         }
     }
 }

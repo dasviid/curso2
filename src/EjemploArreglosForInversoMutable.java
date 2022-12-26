@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class EjemploArreglosForInversoMutable {
-    public static void arregloInverso(String[] arreglo){
+    public static void arregloInverso(String[] arreglo) {
         int total2 = arreglo.length;
         int total = arreglo.length;
         for (int i = 0; i < total2; i++) {
@@ -13,6 +13,7 @@ public class EjemploArreglosForInversoMutable {
             total2--;
         }
     }
+
     public static void main(String[] args) {
 
         String[] productos = new String[7];
@@ -28,7 +29,7 @@ public class EjemploArreglosForInversoMutable {
         }
         int total = productos.length;
         Arrays.sort(productos);
-       arregloInverso(productos);
+        arregloInverso(productos);
 
         //Collections.reverse(Arrays.asList(productos));
         System.out.println(" ========= USANDO FOR ========= ");

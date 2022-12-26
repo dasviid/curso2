@@ -10,7 +10,7 @@ public class EjemploArreglosCombinadosMultiplicacion {
             b[i] = (i + 1) * 5;
         }
         int aux = 0;
-        for (int i = 0; i < a.length; i +=3) {
+        for (int i = 0; i < a.length; i += 3) {
             for (int j = 0; j < 3; j++) {
                 c[aux++] = a[i + j];
             }

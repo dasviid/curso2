@@ -37,7 +37,7 @@ public class EjemploArreglos {
         int k = numeros[2];
         int l = numeros[3];
         //int n = numeros[4]; no se debe
-        int h = numeros[numeros.length-1];
+        int h = numeros[numeros.length - 1];
 
         System.out.println("i = " + i);
         System.out.println("j = " + j);

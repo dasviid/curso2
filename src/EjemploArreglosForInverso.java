@@ -11,7 +11,7 @@ public class EjemploArreglosForInverso {
         productos[4] = "Macbook";
         productos[5] = "Chromecast";
         productos[6] = "Bicicleta";
-        for (int i=0; i < productos.length; i++){
+        for (int i = 0; i < productos.length; i++) {
             productos[i] = productos[i].toUpperCase();
         }
         Arrays.sort(productos);
